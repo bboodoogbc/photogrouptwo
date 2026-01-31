@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Presentation Slides – Question 5</title>
+
+<style>
+  :root{
+    --bg:#0f0f14;
+    --text:#ffffff;
+    --muted:#b8b8c9;
+    --accent:#8b5cf6;
+  }
+
+  *{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+  }
+
+  body{
+    font-family: "Segoe UI", system-ui, sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.5;
+  }
+
+  /* HOME BUTTON */
+  .home-btn{
+    display:inline-block;
+    margin:30px 0 10px 30px;
+    padding:8px 14px;
+    border-radius:6px;
+    background:#1f2230;
+    color:#ffffff;
+    text-decoration:none;
+    font-size:0.9rem;
+    border:1px solid rgba(255,255,255,0.08);
+    transition:background 0.2s ease, border-color 0.2s ease;
+  }
+
+  .home-btn:hover{
+    background:var(--accent);
+    border-color:var(--accent);
+  }
+
+  /* HEADER */
+  header{
+    text-align:center;
+    padding:40px 20px 40px;
+    max-width:1100px;
+    margin:auto;
+  }
+
+  .label{
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:50px;
+    font-size:0.85rem;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    background:linear-gradient(135deg, #2a2d3a, #1a1c26);
+    border:1px solid rgba(255,255,255,0.08);
+    color:#d6d8ff;
+    margin-bottom:18px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+  }
+
+  .q{
+    font-size:clamp(1.4rem, 2.5vw, 2.2rem);
+    font-weight:600;
+    line-height:1.4;
+    color:#ffffff;
+    max-width:900px;
+    margin:0 auto;
+    letter-spacing:0.5px;
+  }
+
+  .q::after{
+    content:"";
+    display:block;
+    width:80px;
+    height:3px;
+    margin:22px auto 0;
+    background:linear-gradient(90deg, #8b5cf6, #22d3ee);
+    border-radius:3px;
+    opacity:0.8;
+  }
+
+  /* SLIDES */
+  .slide{
+  width:100%;
+  padding:70px 20px;
+  display:flex;
+  justify-content:center;
+}
+
+.slide img{
+  width:100%;
+  max-width:900px;
+  height:auto;
+  border-radius:6px;
+  background:#ffffff;
+  padding:18px;
+  box-shadow:0 12px 30px rgba(0,0,0,0.35);
+}
+
+  .bottom-home{
+    display:block;
+    text-align:center;
+    margin-bottom:30px;
+  }
+
+  footer{
+    text-align:center;
+    padding:20px;
+    font-size:0.9rem;
+    color:var(--muted);
+  }
+</style>
+</head>
+
+<body>
+
+<a href="index.html" class="home-btn">← Back to Home</a>
+
+<header>
+  <div class="label">Question 5: Photography & Painting</div>
+  <h2 class="q">
+    Are these photographers painters? Do they all paint with their cameras or maybe only some of them?
+  </h2>
+</header>
+
+<section class="slide">
+  <img src="img/5.1.png" alt="Slide 5.1">
+</section>
+
+<section class="slide">
+  <img src="img/5.2.png" alt="Slide 5.2">
+</section>
+
+<section class="slide">
+  <img src="img/5.3.png" alt="Slide 5.3">
+</section>
+
+<div class="bottom-home">
+  <a href="index.html" class="home-btn">← Back to Home</a>
+</div>
+
+<footer>
+  All rights reserved 2026 &copy; Group 2 • Module 4
+</footer>
+
+</body>
+</html>
